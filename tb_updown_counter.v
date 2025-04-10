@@ -25,17 +25,15 @@ initial begin
 
     rst = 0;
     enable = 1;
-
     updown = 1;
     #150;
 
     rst = 1;
     #10
+    
     rst = 0;
-
     updown = 0;
     #150;
-
     $finish;
 
 
